@@ -1,0 +1,35 @@
+@media (max-width: 1000px) {
+    .lesson {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .modal{
+      padding: 60px 250px 0 250px;
+    }
+}
+
+@media (max-width: 670px) {
+    .lesson {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    } 
+
+    .facebook {
+        margin-bottom: 10px;
+      }
+
+    .header-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .btn-wrapper {
+        margin: 15px 0;
+    }
+}

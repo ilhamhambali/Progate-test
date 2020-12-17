@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro-Tech</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <img class="logo" src="https://pbs.twimg.com/profile_images/1240531778449727491/-EGa-OKh.jpg">
+                <a href="#">Home</a>
+            </div>
+            <img src="menu.png" class="menu-icon">
+            <div class="header-right">
+                <a href="#about" class="page-scroll">About</a>
+                <a href="#portfolio" class="page-scroll">Portfolio</a>
+                <a href="#">Contact</a>
+                <a onclick="document.getElementById('id-modal').style.display='block'" style="width:auto;">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <div id="id-modal" class="modal">
+      <form class="modal-content animate"  method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id-modal').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <img src="profile-user.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+          <label class="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label class="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+            
+          <button type="submit">Login</button>
+          <label>
+            <input class="remember" type="checkbox" checked="checked" name="remember"> <h3 class="remember">  Remember me</h3>
+          </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id-modal').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot password?</span>
+        </div>
+      </form>
+    </div>
+
+    <div class="top-wrapper">
+        <div class="container">
+            <h1>PRO-TECH.</h1>
+            <h1>JOIN US IN PRO-TECH.</h1>
+            <h3>PROGRAMER | DESAINER | NETWORKING</h3>
+            <br>
+            <h4>PRO-TECH adalah perusahaan yang bergerak dibidang IT.</h4>
+            <h4>Ayo gabung bersama kami di PRO-TECH dan raih kesuksesanmu untuk masa depan yang cemerlang.</h4>
+            <div class="btn-wrapper">
+                <a href="#" class="btn signup">Daftar dengan Email</a>
+                <p>atau</p>
+                <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
+                <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Daftar dengan Twitter</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <div class="lesson-wrapper">
+            <div class="container">
+                <div class="heading">
+                    <h1>About</h1>
+                    <hr>
+                </div>
+                <div class="lessons">
+                    <div class="lesson">
+                        <div class="lesson-icon">
+                            <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/programmer-1994390-1682240.png">>
+                            <p>PROGRAMER</p>
+                        </div>
+                        <p class="txt-contents">Programmer adalah seseorang yang memiliki kemampuan atau skill menulis dan merancang kode program-program (syntax) komputer menggunakan bahasa-bahasa pemrograman komputer (Java, Php, Javascript dll).</p>
+                    </div>
+                    <div class="lesson">
+                        <div class="lesson-icon">
+                            <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/video-lecture-686294.png">
+                            <p>DESAINER</p>
+                        </div>
+                        <p class="txt-contents">Desainer adalah profesi yang berkaitan erat dengan ilustrasi, fotografi, tipografi atau animasi. Seorang desainer grafis biasanya menciptakan karya untuk media cetak, media elektronik, penerbit, dan lain sebagainya.</p>
+                    </div>
+                    <div class="lessons">
+                        <div class="lesson">
+                            <div class="lesson-icon">
+                                <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/people-network-5-662404.png">
+                                <p>NETWORKING</p>
+                            </div>
+                            <p class="txt-contents">Networking adalah kemampuan membangun jaringan atau hubungan dengan orang lain ini sangat penting dimiliki oleh seorang marketing.</p>
+                        </div>
+                        <div class="lesson">
+                            <div class="lesson-icon">
+                                <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/idea-generation-3-662456.png">
+                                <p>FRONT-END</p>
+                            </div>
+                            <p class="txt-contents">Front end developer adalah orang yang berperan mengembangkan tampilan situs atau aplikasi melalui HTML, CSS, dan JavaScript.</p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="Portfolio" id="portfolio">
+        <div class="img-wrapper">
+            <div class="container">
+                <div class="contents">
+                    <h1>Porfolio</h1>
+                    <hr>
+                </div>
+                <div class="lessons">
+                    <div class="lesson">
+                        <div class="lesson-img">
+                            <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/programmer-1994390-1682240.png">>
+                            <h3>ILHAM HAMBALI</h3>
+                            <hr>
+                            <p>PROGRAMER</p>
+                        </div>
+                    </div>
+                    <div class="lesson">
+                        <div class="lesson-img">
+                            <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/video-lecture-686294.png">
+                            <h3>DENNY ADITYA</h3>
+                            <hr>
+                            <p>DESAINER</p>
+                        </div>
+                    </div>
+                    <div class="lessons">
+                        <div class="lesson">
+                            <div class="lesson-img">
+                                <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/people-network-5-662404.png">
+                                <h3>MASRONI</h3>
+                                <hr>
+                                <p>NETWORKING</p>
+                            </div>
+                        </div>
+                        <div class="lesson">
+                            <div class="lesson-img">
+                                <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/idea-generation-3-662456.png">
+                                <h3>SYAIDINA ALI</h3>
+                                <hr>
+                                <p>FRONT-END</p>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ContactForm" id="ContactForm">
+    <div class="contact-form">
+        <h3 class="section-title">Hubungi kami</h3>
+        <p>Email (Wajib Diisi)</p>
+          <input>
+
+        <p>Pesan (Wajib Diisi)</p>
+          <textarea></textarea>
+
+        <p>*Bidang Wajib Diisi</p>
+          <input class= "contact-submit" type= "submit" value="kirim">
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-logo">PRO_TECH</div>
+            <div class="footer-list">
+            <ul>
+                <li>Tentang</li>
+                <li>Karier</li>
+                <li>Hubungi Kami</li>
+            </ul>
+            </div>
+        </div>
+    </footer>
+      </section>
+      <script>
+
+    var modal = document.getElementById('id-modal');
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+</body>
+
+</html>
